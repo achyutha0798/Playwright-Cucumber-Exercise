@@ -1,4 +1,4 @@
-FFeature: Purchase Feature
+Feature: Purchase Feature
 
   Background:
     Given I open the "https://www.saucedemo.com/" page
