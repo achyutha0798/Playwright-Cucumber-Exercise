@@ -1,6 +1,6 @@
 import { Then } from '@cucumber/cucumber';
 import { getPage } from '../playwrightUtilities';
-import { Login } from '../pages/login';
+import { Login } from '../pages/login.page';
 
 // ✅ Step - validates page title
 Then('I should see the title {string}', async (expectedTitle: string) => {
